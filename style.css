@@ -310,6 +310,24 @@ nav:hover .shrink-btn, .shrink-btn.hovered{
 color: #fff;
 }
 
+.tooltip{
+    background-color: var(--main-color);
+    position: absolute;
+    right: -1.2rem;
+    top: 0;
+    transform: translateX(100%);
+    padding: 0 0.8rem;
+    font-size: 0.85rem;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+}
+
+.tooltip span {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
 /* When the menu shrinks */
 
 .hide{
